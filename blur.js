@@ -1,4 +1,4 @@
-setInterval(function(){
+setInterval(function(){								//to handle pagination for larger webPages
 	var size = document.images.length;				//to get number of images in DOM
 	for(i = 0; i < size; i++){
 		var url=document.images.item(i).src;       //to get url of all images in the DOM
